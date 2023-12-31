@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My cart</title>
+  <link rel="shortcut icon" href="/images/icon-page.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.min.css?1">
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="/">
+          <picture class="logo__images">
+            <source media="(max-width: 768px)" srcset="/images/logo-mobile.svg">
+            <img class="logo__img" src="/images/logo.svg" alt="logo">
+          </picture>
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link menu__link--active" href="/">Home</a>
+            </li>
+            <li class="menu__item menu__item-separator">/</li>
+            <li class="menu__item">
+              <a class="menu__link" href="/all-products.html">Products</a>
+            </li>
+            <li class="menu__item menu__item-separator">/</li>
+            <li class="menu__item">
+              <a class="menu__link" href="/about.html">About</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__links">
+          <a class="header__basket" href="/my-cart.html">
+            <img class="header__basket-img" src="/images/basket-icon.svg" alt="basket icon">
+            <span class="header__basket-num">0</span>
+          </a>
+          <a class="header__link" href="/login.html">Login</a>
+        </div>
+
+        <div class="header__elements">
+          <div class="header__elements-top">
+            <a class="logo" href="/">
+              <picture class="logo__images">
+                <source media="(max-width: 768px)" srcset="/images/logo-mobile.svg">
+                <img class="logo__img" src="/images/logo.svg" alt="logo">
+              </picture>
+            </a>
+            <button class="button-close header__elements-btnclose">
+              <img class="button-close__img" src="/images/close.svg">
+            </button>
+          </div>
+        </div>
+
+        <button class="header__mobile-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="bread-crumbs">
+        <ul class="bread-crumbs__list">
+          <li class="bread-crumbs__item">
+            <a class="bread-crumbs__item-title" href="/">Home</a>
+          </li>
+          <li class="bread-crumbs__item-arrow">
+            <span class="bread-crumbs__item-title">></span>
+          </li>
+          <li class="bread-crumbs__item">
+            <span class="bread-crumbs__item-title bread-crumbs__item-title--active" href="#">My Cart</span>
+          </li>
+        </ul>
+      </div>
+      <table class="cart-table">
+        <tbody>
+          <tr class="cart-table__top">
+            <th class="cart-table__top-title">Product</th>
+            <th class="cart-table__top-title">Price</th>
+            <th class="cart-table__top-title">Quantity</th>
+            <th class="cart-table__top-title">Total</th>
+          </tr>
+
+          <tr class="cart-table__value">
+            <td>
+              <div class="cart-table__value-box">
+                <img class="cart-table__value-images" src="/images/content/my-card.jpg" alt="images">
+                <div class="cart-table__value-content">
+                  <a class="cart-table__value-text cart-table__value-title" href="/product.html">Mouse T78 Black</a>
+                </div>
+              </div>
+            </td>
+            <td class="cart-table__value-pricetd">
+              <p class="cart-table__value-text cart-table__value-price" data-price="10">$10</p>
+            </td>
+            <td class="cart-table__value-quantitytd">
+              <form class="cart-table__value-quantity">
+                <button class="cart-table__value-btn cart-table__value-btnminus" type="button">-</button>
+                <input class="cart-table__value-input" type="number" value="1">
+                <button class="cart-table__value-btn cart-table__value-btnplus" type="button">+</button>
+              </form>
+            </td>
+            <td>
+              <a class="cart-table__delete" href="#">
+                <img class="cart-table__delete-img" src="/images/my-card-delete.svg" alt="images">
+              </a>
+            </td>
+          </tr>
+
+          <tr class="cart-table__value">
+            <td>
+              <div class="cart-table__value-box">
+                <img class="cart-table__value-images" src="/images/content/products-box-3.jpg" alt="images">
+                <div class="cart-table__value-content">
+                  <a class="cart-table__value-text cart-table__value-title" href="/product.html">Mouse T78 Black</a>
+                </div>
+              </div>
+            </td>
+            <td class="cart-table__value-pricetd">
+              <p class="cart-table__value-text cart-table__value-price" data-price="25">$25</p>
+            </td>
+            <td class="cart-table__value-quantitytd">
+              <form class="cart-table__value-quantity">
+                <button class="cart-table__value-btn cart-table__value-btnminus" type="button">-</button>
+                <input class="cart-table__value-input" type="number" value="1">
+                <button class="cart-table__value-btn cart-table__value-btnplus" type="button">+</button>
+              </form>
+            </td>
+            <td>
+              <a class="cart-table__delete" href="#">
+                <img class="cart-table__delete-img" src="/images/my-card-delete.svg" alt="images">
+              </a>
+            </td>
+          </tr>
+
+          <tr class="cart-table__value">
+            <td>
+              <div class="cart-table__value-box">
+                <img class="cart-table__value-images" src="/images/content/products-box-6.jpg" alt="images">
+                <div class="cart-table__value-content">
+                  <a class="cart-table__value-text cart-table__value-title" href="/product.html">keyboard X</a>
+                </div>
+              </div>
+            </td>
+            <td class="cart-table__value-pricetd">
+              <p class="cart-table__value-text cart-table__value-price" data-price="40">$40</p>
+            </td>
+            <td class="cart-table__value-quantitytd">
+              <form class="cart-table__value-quantity">
+                <button class="cart-table__value-btn cart-table__value-btnminus" type="button">-</button>
+                <input class="cart-table__value-input" type="number" value="1">
+                <button class="cart-table__value-btn cart-table__value-btnplus" type="button">+</button>
+              </form>
+            </td>
+            <td>
+              <a class="cart-table__delete" href="#">
+                <img class="cart-table__delete-img" src="/images/my-card-delete.svg" alt="images">
+              </a>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+      <section class="subtotal">
+        <div class="subtotal__box">
+          <div class="subtotal__line">
+            <h6 class="subtotal__title">Subtotal</h6>
+            <p class="subtotal__price subtotal__price-general">$0</p>
+          </div>
+          <div class="subtotal__line">
+            <h6 class="subtotal__title subtotal__shipping-title">Shipping Fee</h6>
+            <p class="subtotal__price subtotal__shipping-num" data-price="5">$5</p>
+          </div>
+          <div class="subtotal__line subtotal__order">
+            <h6 class="subtotal__title subtotal__order-title">Total Order </h6>
+            <p class="subtotal__price subtotal__order-num">$5</p>
+          </div>
+        </div>
+        <div class="subtotal__action">
+          <a class="subtotal__action-link subtotal__action-linkclose" href="/">Close</a>
+          <a class="subtotal__action-link subtotal__action-linkcheck" href="#">Check Out</a>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__info">
+          <a class="logo" href="/">
+            <img class="logo__img" src="/images/logo-2.svg" alt="logo">
+          </a>
+          <p class="footer__copyright">© Copyright 2021. Created by Our Team</p>
+        </div>
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="/images/social/facebook.png" alt="facebook icon">
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="/images/social/instagram.png" alt="instagram icon">
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="/images/social/twitter.png" alt="twitter icon">
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="/images/social/youtube.png" alt="youtube icon">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="/js/libs.min.js"></script>
+<script src="/js/main.min.js"></script>
+<script src="/js/my-cart.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All products</title>
+  <link rel="shortcut icon" href="/images/icon-page.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.min.css?1">
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="/">
+          <picture class="logo__images">
+            <source media="(max-width: 768px)" srcset="/images/logo-mobile.svg">
+            <img class="logo__img" src="/images/logo.svg" alt="logo">
+          </picture>
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="/">Home</a>
+            </li>
+            <li class="menu__item menu__item-separator">/</li>
+            <li class="menu__item">
+              <a class="menu__link menu__link--active" href="/all-products.html">Products</a>
+            </li>
+            <li class="menu__item menu__item-separator">/</li>
+            <li class="menu__item">
+              <a class="menu__link" href="/about.html">About</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__links">
+          <a class="header__basket" href="/my-cart.html">
+            <img class="header__basket-img" src="/images/basket-icon.svg" alt="basket icon">
+            <span class="header__basket-num">0</span>
+          </a>
+          <a class="header__link" href="/login.html">Login</a>
+        </div>
+
+        <div class="header__elements">
+          <div class="header__elements-top">
+            <a class="logo" href="/">
+              <picture class="logo__images">
+                <source media="(max-width: 768px)" srcset="/images/logo-mobile.svg">
+                <img class="logo__img" src="/images/logo.svg" alt="logo">
+              </picture>
+            </a>
+            <button class="button-close header__elements-btnclose">
+              <img class="button-close__img" src="/images/close.svg">
+            </button>
+          </div>
+        </div>
+
+        <button class="header__mobile-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="bread-crumbs">
+        <ul class="bread-crumbs__list">
+          <li class="bread-crumbs__item">
+            <a class="bread-crumbs__item-title" href="/">Home</a>
+          </li>
+          <li class="bread-crumbs__item-arrow">
+            <span class="bread-crumbs__item-title">></span>
+          </li>
+          <li class="bread-crumbs__item">
+            <span class="bread-crumbs__item-title bread-crumbs__item-title--active">Products</span>
+          </li>
+        </ul>
+      </div>
+      <section class="all-products">
+        <div class="all-products__inner">
+          <aside class="aside-menu">
+            <div class="aside-menu__top">
+              <h4 class="aside-menu__title">Filter</h4>
+              <button class="button-close aside-menu__btn-close">
+                <img class="button-close__img" src="/images/close.svg">
+              </button>
+            </div>
+            <div class="aside-menu__filter">
+              <div class="aside-menu__filter-listbox">
+                <h6 class="aside-menu__filter-title">Brand</h6>
+                <ul class="aside-menu__filter-list">
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Apple
+                    </a>
+                  </li>
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Lenovo
+                    </a>
+                  </li>
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link aside-menu__filter-link--active" href="#">
+                      Razer
+                    </a>
+                  </li>
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Asus
+                    </a>
+                  </li>
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Acer
+                    </a>
+                  </li>
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Dream Machines
+                    </a>
+                  </li>
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Microsoft
+                    </a>
+                  </li>
+                </ul>
+                <button class="aside-menu__filter-othersbtn">Others</button>
+              </div>
+              <div class="aside-menu__filter-listbox">
+                <h6 class="aside-menu__filter-title">Model</h6>
+                <ul class="aside-menu__filter-list">
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link aside-menu__filter-link--active" href="#">
+                      Mouse x10
+                    </a>
+                  </li>
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Mouse x105
+                    </a>
+                  </li>
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Mouse x109
+                    </a>
+                  </li>
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Mouse Pro
+                    </a>
+                  </li>
+
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Mouse Pro Plus
+                    </a>
+                  </li>
+
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Mouse Pro ES
+                    </a>
+                  </li>
+
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Mouse 2 Pro
+                    </a>
+                  </li>
+
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Men’s Clothing
+                    </a>
+                  </li>
+
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Logitech G102
+                    </a>
+                  </li>
+                </ul>
+                <button class="aside-menu__filter-othersbtn">Others</button>
+              </div>
+              <div class="aside-menu__filter-listbox">
+                <h6 class="aside-menu__filter-title">Connection type</h6>
+                <ul class="aside-menu__filter-list">
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Wired
+                    </a>
+                  </li>
+                  <li class="aside-menu__filter-item">
+                    <a class="aside-menu__filter-link" href="#">
+                      Wireless
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="aside-menu__filter-price">
+                <h6 class="aside-menu__filter-title">Price range</h6>
+                <form class="aside-menu__filter-form" method="GET" action="">
+                  <input class="aside-menu__filter-forminput" type="number" placeholder="Min">
+                  <input class="aside-menu__filter-forminput" type="number" placeholder="Max">
+                  <button class="aside-menu__filter-formbtn">Set Price</button>
+                </form>
+              </div>
+            </div>
+            <button class="aside-menu__reset-btn">Clear Filter</button>
+          </aside>
+          <div class="all-products__content">
+            <form class="all-products__search-form" method="GET" action="">
+              <div class="all-products__search-line">
+                <input class="all-products__search-input" type="search" value="Mouse">
+                <button class="all-products__search-btn" type="submit">
+                  <img class="all-products__search-btnicon" src="/images/search-icon.svg" alt="search">
+                </button>
+              </div>
+            </form>
+            <div class="all-products__content-info">
+              <p class="all-products__result">Search result for <strong>“Mouse”</strong></p>
+              <div class="all-products__content-elements">
+                <button class="all-products__filter-btn">Filter (4)</button>
+                <div class="all-products__sort">
+                  <p class="all-products__sort-title">Sort by</p>
+                  <form class="all-products__sort-form">
+                    <select class="all-products__form-select">
+                      <option>Name (A-Z)</option>
+                      <option selected>Popularity</option>
+                      <option>Ascending price</option>
+                      <option>Descending price</option>
+                    </select>
+                    <img class="all-products__arrow-img" src="/images/select-arrow-down.svg" alt="arrow down">
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="all-products__content-items">
+
+              <div class="all-products__content-item">
+                <div class="all-products__item-images">
+                  <img class="all-products__item-img" src="/images/content/all-products-1.jpg" alt="images">
+                  <div class="all-products__item-buttons">
+                    <a class="all-products__item-detail" href="/product.html">Detail</a>
+                    <button class="all-products__item-basket">
+                      <img class="all-products__item-basketimg" src="/images/basket-icon.svg" alt="basket icon">
+                    </button>
+                  </div>
+                </div>
+                <div class="all-products__item-info">
+                  <a class="all-products__item-title" href="/product.html">Mouse x10</a>
+                  <p class="all-products__item-price">$20.00</p>
+                </div>
+              </div>
+
+              <div class="all-products__content-item">
+                <div class="all-products__item-images">
+                  <img class="all-products__item-img" src="/images/content/all-products-2.jpg" alt="images">
+                  <div class="all-products__item-buttons">
+                    <a class="all-products__item-detail" href="/product.html">Detail</a>
+                    <button class="all-products__item-basket">
+                      <img class="all-products__item-basketimg" src="/images/basket-icon.svg" alt="basket icon">
+                    </button>
+                  </div>
+                </div>
+                <div class="all-products__item-info">
+                  <a class="all-products__item-title" href="/product.html">Mouse x105</a>
+                  <p class="all-products__item-price">$77.00</p>
+                </div>
+              </div>
+
+              <div class="all-products__content-item">
+                <div class="all-products__item-images">
+                  <img class="all-products__item-img" src="/images/content/all-products-3.jpg" alt="images">
+                  <div class="all-products__item-buttons">
+                    <a class="all-products__item-detail" href="/product.html">Detail</a>
+                    <button class="all-products__item-basket">
+                      <img class="all-products__item-basketimg" src="/images/basket-icon.svg" alt="basket icon">
+                    </button>
+                  </div>
+                </div>
+                <div class="all-products__item-info">
+                  <a class="all-products__item-title" href="/product.html">Mouse x109</a>
+                  <p class="all-products__item-price">$89.00</p>
+                </div>
+              </div>
+
+              <div class="all-products__content-item">
+                <div class="all-products__item-images">
+                  <img class="all-products__item-img" src="/images/content/all-products-4.jpg" alt="images">
+                  <div class="all-products__item-buttons">
+                    <a class="all-products__item-detail" href="/product.html">Detail</a>
+                    <button class="all-products__item-basket">
+                      <img class="all-products__item-basketimg" src="/images/basket-icon.svg" alt="basket icon">
+                    </button>
+                  </div>
+                </div>
+                <div class="all-products__item-info">
+                  <a class="all-products__item-title" href="/product.html">Mouse Pro</a>
+                  <p class="all-products__item-price">$100.00</p>
+                </div>
+              </div>
+
+              <div class="all-products__content-item">
+                <div class="all-products__item-images">
+                  <img class="all-products__item-img" src="/images/content/all-products-5.jpg" alt="images">
+                  <div class="all-products__item-buttons">
+                    <a class="all-products__item-detail" href="/product.html">Detail</a>
+                    <button class="all-products__item-basket">
+                      <img class="all-products__item-basketimg" src="/images/basket-icon.svg" alt="basket icon">
+                    </button>
+                  </div>
+                </div>
+                <div class="all-products__item-info">
+                  <a class="all-products__item-title" href="/product.html">Mouse Pro Plus</a>
+                  <p class="all-products__item-price">$99.00</p>
+                </div>
+              </div>
+
+              <div class="all-products__content-item">
+                <div class="all-products__item-images">
+                  <img class="all-products__item-img" src="/images/content/all-products-6.jpg" alt="images">
+                  <div class="all-products__item-buttons">
+                    <a class="all-products__item-detail" href="/product.html">Detail</a>
+                    <button class="all-products__item-basket">
+                      <img class="all-products__item-basketimg" src="/images/basket-icon.svg" alt="basket icon">
+                    </button>
+                  </div>
+                </div>
+                <div class="all-products__item-info">
+                  <a class="all-products__item-title" href="/product.html">Mouse Pro ES</a>
+                  <p class="all-products__item-price">$13.00</p>
+                </div>
+              </div>
+
+              <div class="all-products__content-item">
+                <div class="all-products__item-images">
+                  <img class="all-products__item-img" src="/images/content/all-products-7.jpg" alt="images">
+                  <div class="all-products__item-buttons">
+                    <a class="all-products__item-detail" href="/product.html">Detail</a>
+                    <button class="all-products__item-basket">
+                      <img class="all-products__item-basketimg" src="/images/basket-icon.svg" alt="basket icon">
+                    </button>
+                  </div>
+                </div>
+                <div class="all-products__item-info">
+                  <a class="all-products__item-title" href="/product.html">Mouse 2 Pro</a>
+                  <p class="all-products__item-price">$150.00</p>
+                </div>
+              </div>
+
+              <div class="all-products__content-item">
+                <div class="all-products__item-images">
+                  <img class="all-products__item-img" src="/images/content/all-products-8.jpg" alt="images">
+                  <div class="all-products__item-buttons">
+                    <a class="all-products__item-detail" href="/product.html">Detail</a>
+                    <button class="all-products__item-basket">
+                      <img class="all-products__item-basketimg" src="/images/basket-icon.svg" alt="basket icon">
+                    </button>
+                  </div>
+                </div>
+                <div class="all-products__item-info">
+                  <a class="all-products__item-title" href="/product.html">Logitech G102</a>
+                  <p class="all-products__item-price">$33.00</p>
+                </div>
+              </div>
+            </div>
+            <button class="paginate-btn">
+              Lead More
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__info">
+          <a class="logo" href="/">
+            <img class="logo__img" src="/images/logo-2.svg" alt="logo">
+          </a>
+          <p class="footer__copyright">© Copyright 2021. Created by Our Team</p>
+        </div>
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="/images/social/facebook.png" alt="facebook icon">
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="/images/social/instagram.png" alt="instagram icon">
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="/images/social/twitter.png" alt="twitter icon">
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-img" src="/images/social/youtube.png" alt="youtube icon">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="/js/libs.min.js"></script>
+<script src="/js/main.min.js"></script>
+<script src="/js/all-products.min.js"></script>
+</body>
+</html>
